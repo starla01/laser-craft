@@ -1,7 +1,7 @@
 import './globals.css'
+import styles from './page.module.css'
 
 import Menu from './components/menu'
-import Hero from './components/hero'
 import Banner from './components/banner'
 import Footer from './components/footer'
 
@@ -14,10 +14,10 @@ export default function RootLayout ({ children }) {
   return (
     <html lang='en'>
       <body>
-        <Hero>
+        <div className={styles.hero}>
           <Menu />
           <Banner />
-        </Hero>
+        </div>
         {children}
         <Footer />
       </body>

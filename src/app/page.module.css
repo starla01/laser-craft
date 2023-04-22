@@ -17,6 +17,12 @@
   font-family: var(--font-mono);
 }
 
+.hero {
+  color: black;
+  position: relative;
+  height: 500px;
+}
+
 .description a {
   display: flex;
   align-items: center;
