@@ -1,8 +1,6 @@
 import '../globals.css'
 
 import Menu from '../components/menu'
-import Hero from '../components/hero'
-import Banner from '../components/banner'
 import Footer from '../components/footer'
 
 export const metadata = {
