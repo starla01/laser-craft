@@ -1,11 +1,11 @@
 'use client'
 
 import { useState } from 'react'
-import styles from '../page.module.css'
+import styles from './page.module.css'
 
-import Categories from '../components/categories'
-import Separator from '../components/separator'
-import Modal from '../components/Modal'
+import Categories from './components/categories'
+import Separator from './components/separator'
+import Modal from './components/Modal'
 
 export default function Home () {
   const [modalActive, setModalActive] = useState(false)

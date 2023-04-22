@@ -11,7 +11,7 @@ import PasswordIcon from '@mui/icons-material/Password'
 
 import styles from './login.module.css'
 
-import LoginBack from '../../components/backgrounds/Login'
+import LoginBack from '../components/backgrounds/Login'
 
 export default function Login () {
   return (

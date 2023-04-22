@@ -14,10 +14,7 @@ export default function RootLayout ({ children }) {
   return (
     <html lang='en'>
       <body>
-        <Hero>
-          <Menu />
-          <Banner />
-        </Hero>
+        <Menu type='full' />
         {children}
         <Footer />
       </body>
