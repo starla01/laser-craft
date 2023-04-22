@@ -5,7 +5,7 @@ import styles from './page.module.css'
 
 import Categories from './components/categories'
 import Separator from './components/separator'
-import Modal from './components/Modal'
+import Modal from './components/modal'
 
 export default function Home () {
   const [modalActive, setModalActive] = useState(false)
