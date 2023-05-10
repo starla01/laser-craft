@@ -1,4 +1,4 @@
-import styles from './footer.module.css'
+import styles from './footer.module.sass'
 
 import {
   AiOutlineTwitter
@@ -10,9 +10,9 @@ import {
   FaTwitch
 } from 'react-icons/fa'
 
-import { Open_Sans } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 
-const roboto = Open_Sans({
+const roboto = Roboto({
   weight: ['400', '500', '700'],
   subsets: ['latin']
 })
@@ -23,8 +23,7 @@ export default function Footer () {
       <div className={styles.blocks}>
         <div className={styles.blockMain}>
           <p className={styles.titleLogo}>
-            <img src='/images/logo_laser_craft_white.png' alt='DigInvite' width='40px' />
-            <span className={roboto.className}>Laser<b>Craft</b></span>
+            <img src='/images/logo_laser_craft_white.png' alt='DigInvite' width='120px' />
           </p>
         </div>
         <div className={styles.block}>

@@ -1,4 +1,4 @@
-import styles from './page.module.css'
+import styles from './page.module.sass'
 
 export default function About () {
   return (

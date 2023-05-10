@@ -1,4 +1,4 @@
-import styles from './modal.module.css'
+import styles from './modal.module.sass'
 
 import { Open_Sans } from 'next/font/google'
 

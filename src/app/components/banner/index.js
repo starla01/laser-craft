@@ -1,18 +1,18 @@
 'use client'
 import { useState } from 'react'
-import styles from './banner.module.css'
+import styles from './banner.module.sass'
 
 export default function Banner () {
   const [pos, setPos] = useState(0)
   const slides = [
     {
-      image: '/images/wedding_banner.png',
+      image: '/images/lamparas.jpg',
       type: 'wedding',
       url: '/invitaciones',
       back: '#000000'
     },
     {
-      image: '/images/apple.jpg',
+      image: '/images/lamparas.jpg',
       type: 'bidthday',
       url: '/invitaciones',
       back: '#c44343'

@@ -1,12 +1,12 @@
-import './globals.css'
-import styles from './page.module.css'
+import './globals.sass'
+import styles from './page.module.sass'
 
 import Menu from './components/menu'
 import Banner from './components/banner'
 import Footer from './components/footer'
 
 export const metadata = {
-  title: 'Digi-Invite',
+  title: 'Laser Craft',
   description: 'Sitio de eventos especiales'
 }
 

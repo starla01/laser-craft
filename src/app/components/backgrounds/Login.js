@@ -1,4 +1,4 @@
-import styles from './colors.module.css'
+import styles from './colors.module.sass'
 
 export default function LoginBack () {
   return (

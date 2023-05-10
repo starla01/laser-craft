@@ -5,7 +5,7 @@ import TextField from '@mui/material/TextField'
 import AccountCircle from '@mui/icons-material/AccountCircle'
 import PasswordIcon from '@mui/icons-material/Password'
 
-import styles from './login.module.css'
+import styles from './login.module.sass'
 
 import LoginBack from '../components/backgrounds/Login'
 

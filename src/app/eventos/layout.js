@@ -1,4 +1,4 @@
-import '../globals.css'
+import '../globals.sass'
 
 import Menu from '../components/menu'
 import Footer from '../components/footer'

@@ -1,4 +1,4 @@
-import styles from './separator.module.css'
+import styles from './separator.module.sass'
 
 import { Open_Sans } from 'next/font/google'
 
